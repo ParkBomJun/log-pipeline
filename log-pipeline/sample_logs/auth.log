@@ -1,0 +1,822 @@
+Jul  3 08:14:01 web-02 sshd[33506]: pam_unix(sshd:session): session closed for user admin
+Jul  3 08:14:24 web-02 sshd[15098]: Failed password for guest from 192.0.2.99 port 38305 ssh2
+Jul  3 08:17:15 web-01 sshd[22447]: Failed password for park from 192.0.2.99 port 51171 ssh2
+Jul  3 08:19:51 bastion sshd[18235]: pam_unix(sshd:session): session closed for user park
+Jul  3 08:23:05 web-01 sshd[82494]: Failed password for invalid user oracle from 203.0.113.45 port 55322 ssh2
+Jul  3 08:24:21 bastion sshd[34865]: Accepted password for park from 10.0.1.22 port 44254 ssh2
+Jul  3 08:30:06 web-02 sshd[71650]: Failed password for invalid user guest from 10.0.1.15 port 31947 ssh2
+Jul  3 08:30:17 bastion sshd[11809]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 08:30:18 web-01 sshd[23349]: pam_unix(sshd:session): session closed for user park
+Jul  3 08:30:21 web-01 sshd[11664]: Accepted password for park from 10.0.1.22 port 60545 ssh2
+Jul  3 08:37:27 bastion sshd[79627]: Failed password for oracle from 10.0.1.15 port 38826 ssh2
+Jul  3 08:39:42 bastion sshd[81340]: pam_unix(sshd:session): session closed for user admin
+Jul  3 08:44:29 db-01 sshd[55986]: pam_unix(sshd:session): session closed for user park
+Jul  3 08:46:38 web-01 sshd[98056]: Failed password for guest from 203.0.113.45 port 43749 ssh2
+Jul  3 08:47:28 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 08:48:26 bastion sshd[34488]: Accepted password for deploy from 10.0.1.22 port 51387 ssh2
+Jul  3 08:53:11 web-02 sshd[2779]: Accepted password for admin from 10.0.1.15 port 37126 ssh2
+Jul  3 08:55:06 web-01 sshd[78701]: Failed password for guest from 192.0.2.99 port 51868 ssh2
+Jul  3 09:01:01 bastion sshd[15982]: Failed password for admin from 10.0.1.15 port 50160 ssh2
+Jul  3 09:03:45 bastion sshd[23017]: Failed password for park from 192.0.2.99 port 60955 ssh2
+Jul  3 09:05:45 web-01 sshd[85888]: pam_unix(sshd:session): session closed for user admin
+Jul  3 09:07:04 bastion sshd[38479]: Failed password for root from 198.51.100.7 port 58877 ssh2
+Jul  3 09:11:43 web-01 sshd[69314]: Failed password for invalid user park from 192.0.2.99 port 60614 ssh2
+Jul  3 09:16:47 bastion sshd[27040]: Accepted password for deploy from 10.0.1.22 port 63517 ssh2
+Jul  3 09:22:02 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 09:22:32 bastion sshd[75951]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 09:33:18 bastion sshd[4228]: Failed password for invalid user deploy from 198.51.100.7 port 62049 ssh2
+Jul  3 09:35:23 web-02 sshd[36440]: pam_unix(sshd:session): session closed for user park
+Jul  3 09:36:34 web-02 sshd[32201]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 09:38:11 web-01 sshd[90674]: pam_unix(sshd:session): session closed for user park
+Jul  3 09:48:08 db-01 sshd[8879]: Accepted password for admin from 10.0.2.8 port 59609 ssh2
+Jul  3 09:50:07 web-02 sshd[85607]: Failed password for park from 198.51.100.7 port 38546 ssh2
+Jul  3 09:57:06 web-02 sshd[28274]: Accepted password for deploy from 10.0.2.8 port 61061 ssh2
+Jul  3 09:57:56 web-02 sshd[29112]: Failed password for oracle from 198.51.100.7 port 37635 ssh2
+Jul  3 10:23:34 db-01 sshd[86439]: pam_unix(sshd:session): session closed for user park
+Jul  3 10:23:50 bastion sshd[10978]: Accepted password for park from 10.0.2.8 port 52077 ssh2
+Jul  3 10:28:29 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 10:29:14 db-01 sshd[47420]: Accepted password for admin from 10.0.2.8 port 41371 ssh2
+Jul  3 10:36:58 bastion sshd[82728]: Accepted password for park from 10.0.2.8 port 34470 ssh2
+Jul  3 10:45:17 db-01 sshd[58589]: Accepted password for admin from 10.0.2.8 port 59897 ssh2
+Jul  3 10:48:22 web-01 sshd[47108]: Failed password for invalid user admin from 192.0.2.99 port 53437 ssh2
+Jul  3 11:01:47 bastion sshd[68841]: Failed password for invalid user deploy from 10.0.1.15 port 38865 ssh2
+Jul  3 11:03:04 web-01 sshd[59288]: pam_unix(sshd:session): session closed for user park
+Jul  3 11:03:14 db-01 sshd[41271]: Accepted password for admin from 10.0.1.22 port 37580 ssh2
+Jul  3 11:03:39 web-01 sshd[48630]: Failed password for root from 10.0.1.15 port 52010 ssh2
+Jul  3 11:10:28 db-01 sshd[94860]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 11:15:23 bastion sshd[85798]: Failed password for oracle from 198.51.100.7 port 61198 ssh2
+Jul  3 11:29:24 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 11:40:23 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 11:42:12 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 11:46:09 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 11:48:56 bastion sshd[30250]: Failed password for invalid user oracle from 198.51.100.7 port 32449 ssh2
+Jul  3 11:52:12 web-01 sshd[28219]: Accepted password for park from 10.0.2.8 port 38980 ssh2
+Jul  3 11:58:53 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 12:05:58 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 12:19:01 bastion sshd[53821]: Failed password for park from 192.0.2.99 port 64141 ssh2
+Jul  3 12:24:23 bastion sshd[2668]: Failed password for guest from 203.0.113.45 port 48121 ssh2
+Jul  3 12:25:28 db-01 sshd[24743]: Accepted password for deploy from 10.0.1.22 port 34901 ssh2
+Jul  3 12:37:33 bastion sshd[8741]: pam_unix(sshd:session): session closed for user admin
+Jul  3 12:39:37 web-01 sshd[90119]: Accepted password for deploy from 10.0.1.15 port 64087 ssh2
+Jul  3 12:40:12 db-01 sshd[47557]: Accepted password for park from 10.0.2.8 port 37977 ssh2
+Jul  3 12:46:31 web-01 sshd[85237]: Failed password for root from 192.0.2.99 port 47262 ssh2
+Jul  3 12:48:35 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 12:49:31 web-02 sshd[4873]: Failed password for park from 203.0.113.45 port 34183 ssh2
+Jul  3 12:49:41 bastion sshd[20682]: Accepted password for deploy from 10.0.1.15 port 63452 ssh2
+Jul  3 12:53:03 web-01 sshd[36136]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 12:53:08 db-01 sshd[73389]: pam_unix(sshd:session): session closed for user park
+Jul  3 12:59:41 web-02 sshd[92833]: Accepted password for deploy from 10.0.1.22 port 32731 ssh2
+Jul  3 13:14:00 web-01 sshd[93404]: Failed password for park from 203.0.113.45 port 59720 ssh2
+Jul  3 13:20:34 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 13:21:47 web-01 sshd[83755]: Failed password for oracle from 198.51.100.7 port 40212 ssh2
+Jul  3 13:24:37 web-01 sshd[73800]: Failed password for park from 203.0.113.45 port 52577 ssh2
+Jul  3 13:37:32 db-01 sshd[3112]: Failed password for root from 10.0.1.15 port 61449 ssh2
+Jul  3 13:39:53 web-02 sshd[74790]: Accepted password for admin from 10.0.1.15 port 36100 ssh2
+Jul  3 13:40:05 web-01 sshd[87707]: Failed password for guest from 192.0.2.99 port 31716 ssh2
+Jul  3 13:42:30 web-02 sshd[4932]: Accepted password for park from 10.0.1.15 port 52128 ssh2
+Jul  3 13:52:24 bastion sshd[43221]: Failed password for deploy from 10.0.1.15 port 48325 ssh2
+Jul  3 13:55:46 web-02 sshd[19657]: pam_unix(sshd:session): session closed for user park
+Jul  3 13:57:32 db-01 sshd[29541]: Failed password for deploy from 192.0.2.99 port 44202 ssh2
+Jul  3 13:59:56 web-01 sshd[85033]: pam_unix(sshd:session): session closed for user park
+Jul  3 14:02:24 db-01 sshd[60549]: pam_unix(sshd:session): session closed for user admin
+Jul  3 14:04:33 db-01 sshd[28440]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 14:05:09 db-01 sshd[22324]: Failed password for admin from 192.0.2.99 port 36979 ssh2
+Jul  3 14:06:59 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 14:08:28 db-01 sshd[69395]: pam_unix(sshd:session): session closed for user park
+Jul  3 14:10:05 web-01 sshd[75077]: Accepted password for admin from 10.0.2.8 port 47998 ssh2
+Jul  3 14:10:38 web-01 sshd[44674]: Accepted password for park from 10.0.1.22 port 61733 ssh2
+Jul  3 14:15:26 bastion sshd[94671]: Failed password for guest from 203.0.113.45 port 63896 ssh2
+Jul  3 14:22:19 db-01 sshd[22832]: Accepted password for park from 10.0.2.8 port 54775 ssh2
+Jul  3 14:27:03 bastion sshd[56625]: Failed password for admin from 203.0.113.45 port 31185 ssh2
+Jul  3 14:29:39 web-01 sshd[84938]: Failed password for deploy from 10.0.1.15 port 42350 ssh2
+Jul  3 14:30:43 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 14:32:33 bastion sshd[73725]: Failed password for root from 192.0.2.99 port 63574 ssh2
+Jul  3 14:33:22 web-02 sshd[30823]: Failed password for admin from 10.0.1.15 port 63435 ssh2
+Jul  3 14:34:19 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 14:38:29 web-01 sshd[12982]: Failed password for invalid user oracle from 203.0.113.45 port 55107 ssh2
+Jul  3 14:41:34 db-01 sshd[83069]: Accepted password for park from 10.0.1.22 port 63781 ssh2
+Jul  3 14:44:11 bastion sshd[10826]: Accepted password for deploy from 10.0.1.15 port 43795 ssh2
+Jul  3 14:45:59 db-01 sshd[46387]: Accepted password for park from 10.0.1.22 port 31646 ssh2
+Jul  3 14:46:28 bastion sshd[90971]: Failed password for invalid user park from 10.0.1.15 port 33936 ssh2
+Jul  3 14:47:06 bastion sshd[73195]: Accepted password for admin from 10.0.1.15 port 49206 ssh2
+Jul  3 14:47:53 web-02 sshd[97424]: Accepted password for park from 10.0.1.22 port 53403 ssh2
+Jul  3 14:53:29 web-02 sshd[19829]: Failed password for deploy from 198.51.100.7 port 49074 ssh2
+Jul  3 14:58:04 db-01 sshd[79468]: Accepted password for deploy from 10.0.1.22 port 33219 ssh2
+Jul  3 15:03:36 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 15:06:59 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 15:08:23 web-01 sshd[85696]: Failed password for invalid user admin from 198.51.100.7 port 39268 ssh2
+Jul  3 15:17:15 web-02 sshd[65737]: pam_unix(sshd:session): session closed for user park
+Jul  3 15:20:18 web-02 sshd[80170]: pam_unix(sshd:session): session closed for user park
+Jul  3 15:21:28 bastion sshd[95018]: Failed password for park from 10.0.1.15 port 45272 ssh2
+Jul  3 15:27:24 bastion sshd[68889]: Failed password for guest from 198.51.100.7 port 62186 ssh2
+Jul  3 15:28:43 web-01 sshd[94373]: Failed password for invalid user oracle from 192.0.2.99 port 46446 ssh2
+Jul  3 15:30:33 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 15:31:38 web-01 sshd[21305]: Failed password for invalid user guest from 10.0.1.15 port 42798 ssh2
+Jul  3 15:32:45 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 15:32:49 bastion sshd[84883]: Accepted password for deploy from 10.0.2.8 port 57289 ssh2
+Jul  3 15:43:24 web-01 sshd[32390]: Failed password for admin from 10.0.1.15 port 46138 ssh2
+Jul  3 15:44:00 web-01 sshd[62420]: Failed password for invalid user root from 192.0.2.99 port 48409 ssh2
+Jul  3 15:47:32 bastion sshd[59275]: Failed password for guest from 192.0.2.99 port 37652 ssh2
+Jul  3 15:50:26 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 15:52:14 web-02 sshd[41293]: Failed password for invalid user park from 192.0.2.99 port 46269 ssh2
+Jul  3 15:58:38 db-01 sshd[30248]: Failed password for oracle from 192.0.2.99 port 53809 ssh2
+Jul  3 16:00:23 bastion sshd[57914]: pam_unix(sshd:session): session closed for user admin
+Jul  3 16:02:06 web-02 sshd[34421]: Failed password for root from 198.51.100.7 port 31525 ssh2
+Jul  3 16:05:22 web-02 sshd[18854]: pam_unix(sshd:session): session closed for user park
+Jul  3 16:05:58 web-01 sshd[23617]: Failed password for deploy from 192.0.2.99 port 45205 ssh2
+Jul  3 16:12:51 web-02 sshd[78331]: Accepted password for admin from 10.0.1.22 port 36292 ssh2
+Jul  3 16:14:46 bastion sshd[8149]: Failed password for oracle from 192.0.2.99 port 43596 ssh2
+Jul  3 16:15:09 web-01 sshd[47742]: Failed password for oracle from 203.0.113.45 port 31459 ssh2
+Jul  3 16:15:11 bastion sshd[61838]: Accepted password for deploy from 10.0.1.15 port 46332 ssh2
+Jul  3 16:16:40 bastion sshd[45104]: Failed password for guest from 10.0.1.15 port 52334 ssh2
+Jul  3 16:16:43 db-01 sshd[64908]: Accepted password for deploy from 10.0.1.15 port 54041 ssh2
+Jul  3 16:18:37 db-01 sshd[73125]: Failed password for oracle from 203.0.113.45 port 37022 ssh2
+Jul  3 16:21:53 bastion sshd[2195]: Failed password for root from 10.0.1.15 port 57811 ssh2
+Jul  3 16:34:43 web-02 sshd[83848]: Accepted password for deploy from 10.0.1.22 port 38551 ssh2
+Jul  3 16:46:42 web-02 sshd[83738]: Accepted password for deploy from 10.0.2.8 port 31636 ssh2
+Jul  3 16:48:42 bastion sshd[69866]: Failed password for invalid user oracle from 192.0.2.99 port 36541 ssh2
+Jul  3 16:49:27 db-01 sshd[26928]: Failed password for admin from 10.0.1.15 port 50358 ssh2
+Jul  3 16:49:48 web-02 sshd[11495]: Accepted password for park from 10.0.1.22 port 37889 ssh2
+Jul  3 16:54:24 web-01 sshd[85357]: Failed password for root from 203.0.113.45 port 34431 ssh2
+Jul  3 16:54:36 web-02 sshd[81745]: Accepted password for admin from 10.0.1.22 port 47916 ssh2
+Jul  3 16:55:11 web-01 sshd[46985]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 17:05:02 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 17:06:31 bastion sshd[77194]: Accepted password for park from 10.0.2.8 port 61881 ssh2
+Jul  3 17:10:35 web-01 sshd[90707]: Accepted password for deploy from 10.0.1.15 port 38300 ssh2
+Jul  3 17:17:51 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 17:21:31 bastion sshd[37009]: Accepted password for admin from 10.0.1.15 port 61122 ssh2
+Jul  3 17:31:29 bastion sshd[10223]: Failed password for park from 198.51.100.7 port 32684 ssh2
+Jul  3 17:32:10 db-01 sshd[6017]: Failed password for root from 198.51.100.7 port 41958 ssh2
+Jul  3 17:36:01 web-01 sshd[44057]: Failed password for invalid user guest from 203.0.113.45 port 43642 ssh2
+Jul  3 17:36:27 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 17:51:44 db-01 sshd[98625]: Failed password for park from 10.0.1.15 port 55133 ssh2
+Jul  3 17:52:01 web-02 sshd[48067]: Accepted password for deploy from 10.0.2.8 port 42816 ssh2
+Jul  3 17:54:42 web-02 sshd[35718]: Accepted password for admin from 10.0.2.8 port 52827 ssh2
+Jul  3 18:03:43 bastion sshd[76071]: pam_unix(sshd:session): session closed for user park
+Jul  3 18:15:09 web-02 sshd[67111]: Accepted password for park from 10.0.1.22 port 50137 ssh2
+Jul  3 18:17:22 web-01 sshd[75267]: Failed password for invalid user deploy from 198.51.100.7 port 63881 ssh2
+Jul  3 18:20:26 db-01 sshd[71678]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 18:21:54 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 18:27:30 web-01 sshd[67155]: pam_unix(sshd:session): session closed for user park
+Jul  3 18:28:37 web-01 sshd[93842]: Failed password for root from 192.0.2.99 port 45776 ssh2
+Jul  3 18:33:26 web-02 sshd[44803]: Accepted password for deploy from 10.0.1.15 port 36048 ssh2
+Jul  3 18:43:11 web-01 sshd[18157]: Failed password for oracle from 198.51.100.7 port 64274 ssh2
+Jul  3 18:43:25 web-01 sshd[28379]: Failed password for oracle from 192.0.2.99 port 63877 ssh2
+Jul  3 18:47:43 db-01 sshd[19720]: Failed password for deploy from 10.0.1.15 port 42217 ssh2
+Jul  3 18:52:35 bastion sshd[85753]: pam_unix(sshd:session): session closed for user park
+Jul  3 19:05:37 bastion sshd[81027]: Accepted password for admin from 10.0.1.22 port 34890 ssh2
+Jul  3 19:05:39 web-01 sshd[59352]: Failed password for guest from 203.0.113.45 port 59537 ssh2
+Jul  3 19:06:55 bastion sshd[28859]: Failed password for oracle from 10.0.1.15 port 53307 ssh2
+Jul  3 19:12:09 web-01 sshd[40063]: pam_unix(sshd:session): session closed for user deploy
+Jul  3 19:20:16 bastion sshd[58892]: Accepted password for park from 10.0.1.22 port 63211 ssh2
+Jul  3 19:20:39 bastion sshd[79918]: pam_unix(sshd:session): session closed for user park
+Jul  3 19:22:14 web-01 sshd[36172]: Accepted password for deploy from 10.0.1.15 port 32966 ssh2
+Jul  3 19:24:59 web-01 sshd[77238]: Accepted password for admin from 10.0.1.22 port 63655 ssh2
+Jul  3 19:32:09 db-01 sshd[70152]: pam_unix(sshd:session): session closed for user park
+Jul  3 19:33:43 db-01 sshd[9892]: pam_unix(sshd:session): session closed for user park
+Jul  3 19:33:49 web-01 sshd[53901]: Accepted password for deploy from 10.0.2.8 port 49564 ssh2
+Jul  3 19:39:49 bastion sshd[36465]: Failed password for oracle from 203.0.113.45 port 43252 ssh2
+Jul  3 19:47:41 bastion sshd[72565]: Accepted password for deploy from 10.0.2.8 port 61670 ssh2
+Jul  3 19:48:01 bastion sshd[99505]: Failed password for invalid user deploy from 203.0.113.45 port 45290 ssh2
+Jul  3 19:49:22 web-01 sshd[17043]: Failed password for guest from 203.0.113.45 port 47904 ssh2
+Jul  3 19:51:03 web-02 sshd[43281]: Accepted password for deploy from 10.0.2.8 port 46106 ssh2
+Jul  3 19:57:23 web-02 sshd[74629]: Failed password for guest from 203.0.113.45 port 42862 ssh2
+Jul  3 19:58:46 web-02 sshd[98573]: Failed password for invalid user guest from 192.0.2.99 port 37205 ssh2
+Jul  3 20:03:50 web-01 sshd[6708]: Failed password for oracle from 192.0.2.99 port 33166 ssh2
+Jul  3 20:09:52 web-02 sshd[10647]: Failed password for invalid user park from 203.0.113.45 port 39750 ssh2
+Jul  3 20:16:14 web-02 sshd[87208]: Accepted password for deploy from 10.0.1.15 port 61539 ssh2
+Jul  3 20:21:30 bastion sshd[80640]: Failed password for park from 192.0.2.99 port 55613 ssh2
+Jul  3 20:24:15 bastion sshd[1932]: Accepted password for park from 10.0.1.22 port 32539 ssh2
+Jul  3 20:26:17 bastion sshd[23365]: Accepted password for park from 10.0.2.8 port 43565 ssh2
+Jul  3 20:29:34 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 20:39:35 web-01 sshd[52352]: Failed password for oracle from 203.0.113.45 port 47868 ssh2
+Jul  3 20:41:28 bastion sshd[88370]: Accepted password for deploy from 10.0.1.15 port 41629 ssh2
+Jul  3 20:44:38 bastion sshd[44629]: Accepted password for admin from 10.0.1.15 port 38553 ssh2
+Jul  3 20:49:28 db-01 sshd[7984]: Failed password for admin from 10.0.1.15 port 34593 ssh2
+Jul  3 20:50:34 web-02 sshd[75283]: pam_unix(sshd:session): session closed for user admin
+Jul  3 20:56:59 bastion sshd[58809]: pam_unix(sshd:session): session closed for user park
+Jul  3 20:58:17 bastion sshd[33931]: Failed password for root from 192.0.2.99 port 46079 ssh2
+Jul  3 21:02:08 web-01 sshd[93791]: Failed password for park from 198.51.100.7 port 44109 ssh2
+Jul  3 21:02:54 db-01 sshd[75168]: Failed password for guest from 203.0.113.45 port 30836 ssh2
+Jul  3 21:03:17 web-02 sshd[86174]: Accepted password for park from 10.0.1.15 port 42627 ssh2
+Jul  3 21:03:44 bastion sshd[45465]: Failed password for invalid user park from 198.51.100.7 port 47297 ssh2
+Jul  3 21:06:04 bastion sshd[59577]: Accepted password for admin from 10.0.2.8 port 39177 ssh2
+Jul  3 21:13:00 bastion sshd[85599]: Failed password for invalid user root from 198.51.100.7 port 30930 ssh2
+Jul  3 21:24:24 web-02 sshd[80909]: Accepted password for park from 10.0.1.22 port 43543 ssh2
+Jul  3 21:25:20 web-02 sshd[56562]: Failed password for park from 203.0.113.45 port 62033 ssh2
+Jul  3 21:25:50 web-01 sshd[85144]: Failed password for oracle from 192.0.2.99 port 49045 ssh2
+Jul  3 21:37:29 db-01 sshd[9869]: pam_unix(sshd:session): session closed for user admin
+Jul  3 21:39:59 web-02 sshd[7085]: Failed password for oracle from 192.0.2.99 port 31988 ssh2
+Jul  3 21:43:30 bastion sshd[78590]: Accepted password for park from 10.0.2.8 port 54641 ssh2
+Jul  3 21:46:29 web-01 sshd[33115]: Accepted password for deploy from 10.0.1.15 port 47753 ssh2
+Jul  3 21:47:44 web-02 sshd[47835]: Failed password for park from 10.0.1.15 port 36898 ssh2
+Jul  3 21:49:09 db-01 sshd[15946]: Failed password for invalid user oracle from 192.0.2.99 port 31886 ssh2
+Jul  3 21:53:44 web-01 sshd[64618]: Accepted password for deploy from 10.0.1.22 port 40429 ssh2
+Jul  3 21:57:16 db-01 sshd[18618]: Failed password for invalid user deploy from 192.0.2.99 port 59780 ssh2
+Jul  3 22:00:00 web-01 sshd[31137]: Accepted password for park from 10.0.1.15 port 43901 ssh2
+Jul  3 22:02:28 bastion sshd[67808]: Failed password for root from 192.0.2.99 port 30797 ssh2
+Jul  3 22:03:36 bastion sshd[67592]: Failed password for root from 192.0.2.99 port 49456 ssh2
+Jul  3 22:04:26 bastion sshd[8181]: Accepted password for park from 10.0.1.22 port 59834 ssh2
+Jul  3 22:07:38 db-01 sshd[64039]: Failed password for oracle from 10.0.1.15 port 64989 ssh2
+Jul  3 22:09:09 web-02 sshd[51855]: Failed password for park from 10.0.1.15 port 61264 ssh2
+Jul  3 22:24:46 db-01 sshd[43183]: Failed password for deploy from 198.51.100.7 port 31230 ssh2
+Jul  3 22:26:56 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 22:30:32 web-01 sshd[6866]: Failed password for deploy from 198.51.100.7 port 47758 ssh2
+Jul  3 22:30:44 web-01 sshd[92490]: Failed password for root from 192.0.2.99 port 32916 ssh2
+Jul  3 22:35:15 bastion sshd[58891]: Failed password for park from 203.0.113.45 port 41532 ssh2
+Jul  3 22:35:35 db-01 sshd[50136]: Failed password for oracle from 192.0.2.99 port 57305 ssh2
+Jul  3 22:37:53 bastion sshd[3046]: Failed password for park from 203.0.113.45 port 52353 ssh2
+Jul  3 22:38:05 bastion sshd[51072]: pam_unix(sshd:session): session closed for user admin
+Jul  3 22:47:34 db-01 sshd[97146]: Accepted password for admin from 10.0.2.8 port 61559 ssh2
+Jul  3 22:49:00 db-01 sshd[33803]: pam_unix(sshd:session): session closed for user park
+Jul  3 22:55:20 web-01 sshd[97936]: Accepted password for admin from 10.0.1.15 port 48819 ssh2
+Jul  3 23:01:22 web-01 sshd[23725]: Accepted password for park from 10.0.1.22 port 56287 ssh2
+Jul  3 23:01:32 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 23:03:06 db-01 sshd[75222]: Failed password for guest from 203.0.113.45 port 60491 ssh2
+Jul  3 23:09:10 bastion sshd[86578]: Failed password for invalid user oracle from 10.0.1.15 port 47160 ssh2
+Jul  3 23:11:17 web-01 sshd[78005]: Failed password for guest from 10.0.1.15 port 57425 ssh2
+Jul  3 23:13:06 web-01 sshd[63922]: Accepted password for deploy from 10.0.1.22 port 51703 ssh2
+Jul  3 23:19:41 web-02 sshd[30333]: Failed password for guest from 10.0.1.15 port 61506 ssh2
+Jul  3 23:20:11 web-01 sshd[91890]: pam_unix(sshd:session): session closed for user park
+Jul  3 23:24:23 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  3 23:38:26 bastion sshd[58321]: Accepted password for deploy from 10.0.1.22 port 57987 ssh2
+Jul  3 23:42:46 db-01 sshd[94514]: Failed password for invalid user admin from 192.0.2.99 port 53148 ssh2
+Jul  3 23:44:00 web-01 sshd[12554]: Failed password for deploy from 10.0.1.15 port 50845 ssh2
+Jul  3 23:47:20 web-02 sshd[80006]: Accepted password for park from 10.0.1.15 port 37630 ssh2
+Jul  3 23:48:45 web-01 sshd[99228]: Failed password for oracle from 198.51.100.7 port 59599 ssh2
+Jul  3 23:59:54 bastion sshd[60896]: pam_unix(sshd:session): session closed for user admin
+Jul  4 00:04:02 web-02 sshd[27289]: Failed password for park from 192.0.2.99 port 35910 ssh2
+Jul  4 00:05:56 web-01 sshd[97190]: Accepted password for park from 10.0.2.8 port 43300 ssh2
+Jul  4 00:09:18 bastion sshd[78620]: Failed password for admin from 203.0.113.45 port 31255 ssh2
+Jul  4 00:10:21 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 00:12:15 web-01 sshd[25019]: Failed password for invalid user admin from 10.0.1.15 port 39636 ssh2
+Jul  4 00:13:54 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 00:17:37 db-01 sshd[23767]: Failed password for park from 203.0.113.45 port 32046 ssh2
+Jul  4 00:21:31 web-01 sshd[18380]: Failed password for deploy from 203.0.113.45 port 51762 ssh2
+Jul  4 00:37:43 db-01 sshd[44099]: Accepted password for deploy from 10.0.2.8 port 40538 ssh2
+Jul  4 00:44:57 bastion sshd[99348]: pam_unix(sshd:session): session closed for user park
+Jul  4 00:46:23 bastion sshd[4023]: Accepted password for park from 10.0.1.15 port 37913 ssh2
+Jul  4 00:49:08 web-02 sshd[14969]: Accepted password for admin from 10.0.2.8 port 53643 ssh2
+Jul  4 00:50:20 web-02 sshd[45672]: Accepted password for admin from 10.0.1.15 port 45265 ssh2
+Jul  4 00:56:55 web-01 sshd[84273]: Accepted password for park from 10.0.1.15 port 53305 ssh2
+Jul  4 00:58:06 web-02 sshd[47514]: Failed password for park from 192.0.2.99 port 44608 ssh2
+Jul  4 01:00:49 db-01 sshd[70047]: Failed password for oracle from 203.0.113.45 port 53002 ssh2
+Jul  4 01:03:13 web-02 sshd[30288]: Accepted password for park from 10.0.1.15 port 47231 ssh2
+Jul  4 01:04:55 bastion sshd[11165]: Failed password for guest from 10.0.1.15 port 44342 ssh2
+Jul  4 01:07:44 bastion sshd[72866]: Failed password for park from 10.0.1.15 port 56510 ssh2
+Jul  4 01:08:23 web-01 sshd[28646]: Failed password for admin from 10.0.1.15 port 60772 ssh2
+Jul  4 01:08:48 web-02 sshd[22037]: Failed password for root from 203.0.113.45 port 31161 ssh2
+Jul  4 01:14:49 web-01 sshd[10122]: Failed password for oracle from 203.0.113.45 port 57873 ssh2
+Jul  4 01:18:18 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 01:20:31 bastion sshd[72500]: Failed password for invalid user deploy from 10.0.1.15 port 58609 ssh2
+Jul  4 01:21:21 web-01 sshd[14861]: Failed password for oracle from 203.0.113.45 port 61742 ssh2
+Jul  4 01:22:11 bastion sshd[53687]: Accepted password for park from 10.0.2.8 port 58065 ssh2
+Jul  4 01:29:16 web-02 sshd[85201]: Failed password for deploy from 198.51.100.7 port 51826 ssh2
+Jul  4 01:35:54 bastion sshd[35239]: Accepted password for park from 10.0.1.15 port 61896 ssh2
+Jul  4 01:39:13 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 01:40:32 db-01 sshd[51805]: Failed password for root from 192.0.2.99 port 59761 ssh2
+Jul  4 01:44:14 web-01 sshd[15513]: Accepted password for park from 10.0.1.22 port 37859 ssh2
+Jul  4 01:45:59 db-01 sshd[63244]: Accepted password for park from 10.0.1.15 port 38485 ssh2
+Jul  4 01:46:22 db-01 sshd[61925]: Failed password for root from 192.0.2.99 port 63519 ssh2
+Jul  4 01:46:25 web-01 sshd[66373]: Failed password for oracle from 192.0.2.99 port 40596 ssh2
+Jul  4 01:51:05 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 01:55:03 web-01 sshd[81135]: Failed password for invalid user oracle from 10.0.1.15 port 51566 ssh2
+Jul  4 01:57:05 web-02 sshd[38397]: pam_unix(sshd:session): session closed for user park
+Jul  4 02:00:19 web-02 sshd[61990]: Accepted password for admin from 10.0.1.22 port 36284 ssh2
+Jul  4 02:06:22 web-01 sshd[72552]: Failed password for park from 10.0.1.15 port 39843 ssh2
+Jul  4 02:12:17 bastion sshd[23922]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 02:12:35 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 02:13:36 web-01 sshd[82189]: Failed password for invalid user admin from 198.51.100.7 port 31068 ssh2
+Jul  4 02:21:26 db-01 sshd[77064]: Failed password for oracle from 192.0.2.99 port 54542 ssh2
+Jul  4 02:23:21 web-02 sshd[49167]: Failed password for admin from 192.0.2.99 port 38495 ssh2
+Jul  4 02:24:28 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 02:37:25 bastion sshd[74627]: Accepted password for park from 10.0.2.8 port 46972 ssh2
+Jul  4 02:43:00 bastion sshd[23512]: Failed password for guest from 203.0.113.45 port 36468 ssh2
+Jul  4 02:43:45 web-01 sshd[87844]: Failed password for deploy from 10.0.1.15 port 63737 ssh2
+Jul  4 02:48:41 bastion sshd[91925]: Failed password for oracle from 203.0.113.45 port 57217 ssh2
+Jul  4 02:50:57 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 02:58:15 web-01 sshd[90426]: pam_unix(sshd:session): session closed for user park
+Jul  4 03:01:50 bastion sshd[56110]: Accepted password for park from 10.0.1.15 port 47535 ssh2
+Jul  4 03:02:51 bastion sshd[10785]: Failed password for invalid user park from 198.51.100.7 port 33106 ssh2
+Jul  4 03:02:57 web-01 sshd[84182]: Accepted password for deploy from 10.0.1.22 port 49493 ssh2
+Jul  4 03:04:56 db-01 sshd[18614]: Accepted password for park from 10.0.1.22 port 43382 ssh2
+Jul  4 03:09:52 web-02 sshd[48011]: pam_unix(sshd:session): session closed for user admin
+Jul  4 03:13:01 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 03:14:09 bastion sshd[85725]: Accepted password for deploy from 10.0.1.15 port 62820 ssh2
+Jul  4 03:14:48 web-02 sshd[41009]: Failed password for invalid user admin from 10.0.1.15 port 48892 ssh2
+Jul  4 03:19:33 web-01 sshd[74916]: pam_unix(sshd:session): session closed for user park
+Jul  4 03:20:10 bastion sshd[2130]: Accepted password for deploy from 10.0.1.15 port 38518 ssh2
+Jul  4 03:26:03 web-02 sshd[9825]: Failed password for invalid user park from 198.51.100.7 port 30549 ssh2
+Jul  4 03:28:02 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 03:30:58 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 03:34:34 db-01 sshd[14010]: Failed password for oracle from 192.0.2.99 port 34205 ssh2
+Jul  4 03:36:03 web-01 sshd[77148]: pam_unix(sshd:session): session closed for user park
+Jul  4 03:39:12 web-01 sshd[19231]: Accepted password for admin from 10.0.2.8 port 63915 ssh2
+Jul  4 03:42:45 web-02 sshd[74964]: Accepted password for park from 10.0.1.22 port 50765 ssh2
+Jul  4 03:48:32 bastion sshd[90791]: Failed password for admin from 198.51.100.7 port 64265 ssh2
+Jul  4 03:58:41 db-01 sshd[20763]: Accepted password for admin from 10.0.1.15 port 47517 ssh2
+Jul  4 04:05:54 web-01 sshd[94211]: Failed password for park from 203.0.113.45 port 48442 ssh2
+Jul  4 04:08:28 web-01 sshd[13994]: Failed password for root from 10.0.1.15 port 59156 ssh2
+Jul  4 04:11:54 web-01 sshd[63331]: Accepted password for admin from 10.0.1.15 port 31349 ssh2
+Jul  4 04:18:34 web-02 sshd[7214]: Accepted password for admin from 10.0.1.22 port 50063 ssh2
+Jul  4 04:19:27 bastion sshd[38662]: Failed password for invalid user deploy from 10.0.1.15 port 58248 ssh2
+Jul  4 04:21:51 web-01 sshd[13471]: Accepted password for deploy from 10.0.2.8 port 43969 ssh2
+Jul  4 04:24:19 db-01 sshd[54016]: Failed password for admin from 10.0.1.15 port 41842 ssh2
+Jul  4 04:30:33 db-01 sshd[93667]: Failed password for guest from 192.0.2.99 port 42516 ssh2
+Jul  4 04:35:56 bastion sshd[15079]: Failed password for invalid user deploy from 198.51.100.7 port 53416 ssh2
+Jul  4 04:36:07 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 04:36:55 web-02 sshd[37301]: Accepted password for park from 10.0.2.8 port 51743 ssh2
+Jul  4 04:38:01 db-01 sshd[73175]: Accepted password for park from 10.0.2.8 port 40045 ssh2
+Jul  4 04:38:16 db-01 sshd[35150]: Failed password for invalid user deploy from 10.0.1.15 port 45026 ssh2
+Jul  4 04:38:24 web-01 sshd[14935]: Failed password for invalid user root from 10.0.1.15 port 56022 ssh2
+Jul  4 04:39:31 db-01 sshd[10141]: Accepted password for park from 10.0.2.8 port 51658 ssh2
+Jul  4 04:41:30 web-02 sshd[67723]: pam_unix(sshd:session): session closed for user park
+Jul  4 04:53:45 web-02 sshd[44736]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 04:54:36 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 04:55:21 db-01 sshd[92709]: Failed password for admin from 203.0.113.45 port 39725 ssh2
+Jul  4 04:55:49 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 05:01:36 web-02 sshd[9955]: Failed password for admin from 203.0.113.45 port 61225 ssh2
+Jul  4 05:08:14 web-02 sshd[1052]: pam_unix(sshd:session): session closed for user park
+Jul  4 05:08:49 bastion sshd[40000]: Failed password for admin from 203.0.113.45 port 50000 ssh2
+Jul  4 05:09:01 bastion sshd[40001]: Failed password for admin from 203.0.113.45 port 50001 ssh2
+Jul  4 05:09:13 bastion sshd[40002]: Failed password for admin from 203.0.113.45 port 50002 ssh2
+Jul  4 05:09:23 web-01 sshd[9017]: Failed password for invalid user deploy from 198.51.100.7 port 54362 ssh2
+Jul  4 05:09:25 bastion sshd[40003]: Failed password for admin from 203.0.113.45 port 50003 ssh2
+Jul  4 05:09:37 bastion sshd[40004]: Failed password for admin from 203.0.113.45 port 50004 ssh2
+Jul  4 05:09:49 bastion sshd[40005]: Failed password for admin from 203.0.113.45 port 50005 ssh2
+Jul  4 05:10:01 bastion sshd[40006]: Failed password for admin from 203.0.113.45 port 50006 ssh2
+Jul  4 05:10:13 bastion sshd[40007]: Failed password for admin from 203.0.113.45 port 50007 ssh2
+Jul  4 05:10:25 bastion sshd[40008]: Failed password for admin from 203.0.113.45 port 50008 ssh2
+Jul  4 05:10:37 bastion sshd[40009]: Failed password for admin from 203.0.113.45 port 50009 ssh2
+Jul  4 05:10:49 bastion sshd[40010]: Failed password for admin from 203.0.113.45 port 50010 ssh2
+Jul  4 05:11:01 bastion sshd[40011]: Failed password for admin from 203.0.113.45 port 50011 ssh2
+Jul  4 05:11:04 web-02 sshd[54487]: Failed password for invalid user deploy from 198.51.100.7 port 30142 ssh2
+Jul  4 05:11:13 bastion sshd[40012]: Failed password for admin from 203.0.113.45 port 50012 ssh2
+Jul  4 05:11:25 bastion sshd[40013]: Failed password for admin from 203.0.113.45 port 50013 ssh2
+Jul  4 05:11:37 bastion sshd[40014]: Failed password for admin from 203.0.113.45 port 50014 ssh2
+Jul  4 05:11:49 bastion sshd[40015]: Failed password for admin from 203.0.113.45 port 50015 ssh2
+Jul  4 05:12:01 bastion sshd[40016]: Failed password for admin from 203.0.113.45 port 50016 ssh2
+Jul  4 05:12:13 bastion sshd[40017]: Failed password for admin from 203.0.113.45 port 50017 ssh2
+Jul  4 05:12:25 bastion sshd[40018]: Failed password for admin from 203.0.113.45 port 50018 ssh2
+Jul  4 05:12:37 bastion sshd[40019]: Failed password for admin from 203.0.113.45 port 50019 ssh2
+Jul  4 05:13:49 bastion sshd[40099]: Accepted password for admin from 203.0.113.45 port 50099 ssh2
+Jul  4 05:14:19 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+Jul  4 05:14:35 web-01 sshd[94786]: Failed password for deploy from 203.0.113.45 port 64651 ssh2
+Jul  4 05:17:50 bastion sshd[61819]: Failed password for invalid user park from 10.0.1.15 port 62651 ssh2
+Jul  4 05:21:51 web-01 sshd[38432]: pam_unix(sshd:session): session closed for user park
+Jul  4 05:38:49 bastion sshd[62320]: pam_unix(sshd:session): session closed for user admin
+Jul  4 05:42:04 web-01 sshd[34205]: Accepted password for deploy from 10.0.1.15 port 38392 ssh2
+Jul  4 05:44:39 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 05:47:36 db-01 sshd[20742]: Failed password for invalid user root from 10.0.1.15 port 38464 ssh2
+Jul  4 05:47:37 db-01 sshd[96021]: Accepted password for park from 10.0.2.8 port 58858 ssh2
+Jul  4 05:48:04 db-01 sshd[81140]: pam_unix(sshd:session): session closed for user park
+Jul  4 05:53:24 db-01 sshd[25093]: Failed password for root from 198.51.100.7 port 43115 ssh2
+Jul  4 05:58:05 web-02 sshd[36979]: Failed password for admin from 203.0.113.45 port 36246 ssh2
+Jul  4 06:15:52 web-02 sshd[53693]: Failed password for guest from 203.0.113.45 port 38369 ssh2
+Jul  4 06:16:41 web-02 sshd[3504]: pam_unix(sshd:session): session closed for user park
+Jul  4 06:22:54 bastion sshd[36656]: Failed password for oracle from 198.51.100.7 port 56213 ssh2
+Jul  4 06:25:00 web-01 sshd[34041]: Failed password for invalid user root from 203.0.113.45 port 55643 ssh2
+Jul  4 06:25:47 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 06:29:53 web-02 sshd[9172]: Failed password for admin from 203.0.113.45 port 61130 ssh2
+Jul  4 06:31:17 bastion sshd[57317]: Failed password for invalid user guest from 10.0.1.15 port 42328 ssh2
+Jul  4 06:34:42 web-01 sshd[19785]: Failed password for invalid user oracle from 203.0.113.45 port 35076 ssh2
+Jul  4 06:34:43 web-01 sshd[25698]: Failed password for root from 192.0.2.99 port 58430 ssh2
+Jul  4 06:35:14 web-01 sshd[32406]: Failed password for root from 10.0.1.15 port 32124 ssh2
+Jul  4 06:35:23 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 06:36:59 web-01 sshd[26218]: Failed password for park from 203.0.113.45 port 38296 ssh2
+Jul  4 06:40:37 web-02 sshd[4386]: Failed password for root from 192.0.2.99 port 50120 ssh2
+Jul  4 06:41:19 web-01 sshd[70564]: pam_unix(sshd:session): session closed for user park
+Jul  4 06:45:50 web-01 sshd[44600]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 06:49:00 web-02 sshd[10536]: Accepted password for admin from 10.0.2.8 port 53758 ssh2
+Jul  4 06:50:29 web-01 sshd[50939]: Failed password for invalid user deploy from 10.0.1.15 port 54740 ssh2
+Jul  4 06:52:02 bastion sshd[81069]: Failed password for oracle from 192.0.2.99 port 33741 ssh2
+Jul  4 06:54:03 bastion sshd[81348]: Failed password for invalid user root from 198.51.100.7 port 64735 ssh2
+Jul  4 06:58:30 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 06:59:47 bastion sshd[16880]: Accepted password for park from 10.0.2.8 port 37798 ssh2
+Jul  4 07:02:20 bastion sshd[35627]: Failed password for invalid user park from 203.0.113.45 port 64925 ssh2
+Jul  4 07:04:21 db-01 sshd[27937]: Failed password for invalid user admin from 198.51.100.7 port 35299 ssh2
+Jul  4 07:09:12 web-02 sshd[37903]: Accepted password for deploy from 10.0.1.22 port 59644 ssh2
+Jul  4 07:11:36 bastion sshd[61639]: Failed password for deploy from 192.0.2.99 port 34745 ssh2
+Jul  4 07:12:14 web-02 sshd[9310]: Accepted password for deploy from 10.0.2.8 port 31325 ssh2
+Jul  4 07:19:35 web-01 sshd[99061]: Accepted password for admin from 10.0.1.22 port 46223 ssh2
+Jul  4 07:21:16 web-02 sshd[30775]: Accepted password for deploy from 10.0.2.8 port 33049 ssh2
+Jul  4 07:21:24 web-02 sshd[38927]: Failed password for admin from 203.0.113.45 port 55015 ssh2
+Jul  4 07:25:40 web-01 sshd[45401]: Accepted password for park from 10.0.1.15 port 30950 ssh2
+Jul  4 07:26:13 bastion sshd[42296]: Failed password for invalid user deploy from 198.51.100.7 port 38104 ssh2
+Jul  4 07:27:56 db-01 sshd[78081]: Accepted password for deploy from 10.0.2.8 port 51846 ssh2
+Jul  4 07:33:01 db-01 sshd[40685]: Failed password for root from 203.0.113.45 port 44026 ssh2
+Jul  4 07:40:21 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 07:42:20 web-02 sshd[90582]: Failed password for guest from 192.0.2.99 port 61069 ssh2
+Jul  4 07:43:41 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 07:43:57 db-01 sshd[26411]: Failed password for oracle from 198.51.100.7 port 43876 ssh2
+Jul  4 07:53:08 bastion sshd[14741]: Failed password for admin from 203.0.113.45 port 33126 ssh2
+Jul  4 07:53:12 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 07:57:10 web-01 sshd[67998]: Failed password for invalid user admin from 203.0.113.45 port 51736 ssh2
+Jul  4 07:57:42 db-01 sshd[80355]: Accepted password for admin from 10.0.2.8 port 64215 ssh2
+Jul  4 08:02:20 bastion sshd[82846]: Accepted password for deploy from 10.0.1.22 port 54104 ssh2
+Jul  4 08:08:34 db-01 sshd[70555]: Accepted password for deploy from 10.0.1.15 port 51305 ssh2
+Jul  4 08:08:38 bastion sshd[79141]: Accepted password for admin from 10.0.1.15 port 51768 ssh2
+Jul  4 08:14:04 bastion sshd[58308]: Failed password for guest from 10.0.1.15 port 52012 ssh2
+Jul  4 08:16:33 web-02 sshd[69270]: Failed password for invalid user guest from 10.0.1.15 port 63377 ssh2
+Jul  4 08:18:12 bastion sshd[19190]: Accepted password for admin from 10.0.1.22 port 57186 ssh2
+Jul  4 08:20:15 web-02 sshd[24492]: Failed password for oracle from 192.0.2.99 port 46924 ssh2
+Jul  4 08:24:57 db-01 sshd[52297]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 08:29:15 web-01 sshd[52254]: Accepted password for deploy from 10.0.1.15 port 51998 ssh2
+Jul  4 08:33:11 bastion sshd[95027]: Failed password for oracle from 198.51.100.7 port 55739 ssh2
+Jul  4 08:34:15 web-01 sshd[30711]: Accepted password for admin from 10.0.2.8 port 41116 ssh2
+Jul  4 08:35:56 web-01 sshd[34290]: Failed password for guest from 203.0.113.45 port 55744 ssh2
+Jul  4 08:38:02 bastion sshd[34849]: Failed password for invalid user deploy from 192.0.2.99 port 41718 ssh2
+Jul  4 08:42:23 db-01 sshd[96212]: Failed password for admin from 192.0.2.99 port 39703 ssh2
+Jul  4 08:48:59 web-01 sshd[85750]: Failed password for admin from 192.0.2.99 port 62916 ssh2
+Jul  4 08:50:55 db-01 sshd[16688]: Accepted password for park from 10.0.1.22 port 44542 ssh2
+Jul  4 09:03:58 bastion sshd[26575]: Failed password for oracle from 10.0.1.15 port 55162 ssh2
+Jul  4 09:06:10 bastion sshd[83722]: Accepted password for park from 10.0.1.15 port 51560 ssh2
+Jul  4 09:06:57 db-01 sshd[4882]: Failed password for oracle from 203.0.113.45 port 51084 ssh2
+Jul  4 09:07:45 bastion sshd[69081]: Accepted password for admin from 10.0.2.8 port 61484 ssh2
+Jul  4 09:12:35 web-02 sshd[21368]: pam_unix(sshd:session): session closed for user admin
+Jul  4 09:14:02 web-02 sshd[64906]: pam_unix(sshd:session): session closed for user admin
+Jul  4 09:21:18 web-01 sshd[31405]: Accepted password for deploy from 10.0.1.15 port 43090 ssh2
+Jul  4 09:25:22 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 09:27:06 db-01 sshd[52871]: Failed password for deploy from 10.0.1.15 port 62226 ssh2
+Jul  4 09:34:03 web-02 sshd[55563]: Accepted password for admin from 10.0.1.22 port 32106 ssh2
+Jul  4 09:42:01 web-01 sshd[20824]: Accepted password for admin from 10.0.1.15 port 34050 ssh2
+Jul  4 09:46:46 web-02 sshd[53752]: pam_unix(sshd:session): session closed for user park
+Jul  4 09:46:53 bastion sshd[10587]: Failed password for oracle from 198.51.100.7 port 59726 ssh2
+Jul  4 09:48:24 bastion sshd[53061]: Failed password for park from 198.51.100.7 port 49483 ssh2
+Jul  4 09:55:13 db-01 sshd[26546]: Failed password for oracle from 10.0.1.15 port 55327 ssh2
+Jul  4 10:01:07 web-01 sshd[17067]: Accepted password for park from 10.0.1.15 port 64352 ssh2
+Jul  4 10:01:13 bastion sshd[45763]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 10:05:15 web-01 sshd[58770]: Failed password for deploy from 192.0.2.99 port 58809 ssh2
+Jul  4 10:12:06 db-01 sshd[42400]: Accepted password for park from 10.0.1.22 port 31382 ssh2
+Jul  4 10:13:11 bastion sshd[70213]: Accepted password for deploy from 10.0.1.22 port 40888 ssh2
+Jul  4 10:15:54 web-01 sshd[52388]: Failed password for oracle from 198.51.100.7 port 59883 ssh2
+Jul  4 10:16:06 bastion sshd[11139]: Failed password for deploy from 203.0.113.45 port 49864 ssh2
+Jul  4 10:18:43 bastion sshd[76124]: Accepted password for admin from 10.0.2.8 port 53565 ssh2
+Jul  4 10:21:03 bastion sshd[73714]: Accepted password for park from 10.0.2.8 port 61361 ssh2
+Jul  4 10:21:20 web-02 sshd[24343]: Failed password for guest from 192.0.2.99 port 61087 ssh2
+Jul  4 10:26:15 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 10:30:13 web-01 sshd[99483]: Failed password for park from 203.0.113.45 port 37443 ssh2
+Jul  4 10:32:58 bastion sshd[55758]: Failed password for invalid user admin from 192.0.2.99 port 33546 ssh2
+Jul  4 10:36:41 db-01 sshd[3488]: pam_unix(sshd:session): session closed for user admin
+Jul  4 10:38:57 db-01 sshd[92579]: Accepted password for park from 10.0.2.8 port 34486 ssh2
+Jul  4 10:39:29 bastion sshd[34775]: Failed password for oracle from 198.51.100.7 port 30293 ssh2
+Jul  4 10:40:16 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 10:43:39 web-02 sshd[37119]: Failed password for root from 192.0.2.99 port 45076 ssh2
+Jul  4 10:44:39 web-01 sshd[76859]: Accepted password for park from 10.0.1.22 port 63578 ssh2
+Jul  4 10:51:39 db-01 sshd[52865]: Failed password for guest from 198.51.100.7 port 31384 ssh2
+Jul  4 10:51:59 db-01 sshd[4384]: Failed password for invalid user admin from 10.0.1.15 port 41766 ssh2
+Jul  4 10:59:28 web-01 sshd[43060]: Accepted password for deploy from 10.0.1.15 port 41246 ssh2
+Jul  4 11:04:18 web-02 sshd[17623]: Failed password for deploy from 10.0.1.15 port 61915 ssh2
+Jul  4 11:06:59 web-01 sshd[13217]: Failed password for admin from 198.51.100.7 port 59424 ssh2
+Jul  4 11:08:46 web-02 sshd[43005]: Accepted password for park from 10.0.2.8 port 31982 ssh2
+Jul  4 11:14:04 db-01 sshd[81819]: Accepted password for park from 10.0.1.22 port 48793 ssh2
+Jul  4 11:14:48 db-01 sshd[25150]: Accepted password for admin from 10.0.1.15 port 35941 ssh2
+Jul  4 11:17:25 db-01 sshd[59593]: Failed password for guest from 203.0.113.45 port 55572 ssh2
+Jul  4 11:17:57 web-01 sshd[67947]: Accepted password for park from 10.0.1.15 port 63039 ssh2
+Jul  4 11:19:37 web-01 sshd[55395]: pam_unix(sshd:session): session closed for user admin
+Jul  4 11:27:34 db-01 sshd[95044]: Failed password for park from 203.0.113.45 port 55177 ssh2
+Jul  4 11:28:34 db-01 sshd[77703]: Failed password for guest from 192.0.2.99 port 32179 ssh2
+Jul  4 11:35:03 db-01 sshd[87373]: Failed password for invalid user park from 10.0.1.15 port 55121 ssh2
+Jul  4 11:45:34 web-02 sshd[37592]: Failed password for oracle from 203.0.113.45 port 54226 ssh2
+Jul  4 11:47:13 bastion sshd[29753]: Accepted password for admin from 10.0.1.22 port 51993 ssh2
+Jul  4 11:49:05 web-01 sshd[15968]: Failed password for invalid user admin from 10.0.1.15 port 51011 ssh2
+Jul  4 11:49:09 web-02 sshd[58435]: Accepted password for deploy from 10.0.2.8 port 33713 ssh2
+Jul  4 11:50:49 db-01 sshd[73582]: Failed password for root from 10.0.1.15 port 45821 ssh2
+Jul  4 11:57:03 db-01 sshd[54341]: Failed password for invalid user oracle from 192.0.2.99 port 44339 ssh2
+Jul  4 12:01:29 web-02 sshd[67395]: Accepted password for park from 10.0.2.8 port 34869 ssh2
+Jul  4 12:05:18 bastion sshd[44135]: pam_unix(sshd:session): session closed for user park
+Jul  4 12:05:52 web-02 sshd[7240]: Failed password for admin from 198.51.100.7 port 62712 ssh2
+Jul  4 12:07:50 db-01 sshd[54451]: Accepted password for park from 10.0.1.15 port 61596 ssh2
+Jul  4 12:08:33 bastion sshd[51881]: Failed password for guest from 203.0.113.45 port 37571 ssh2
+Jul  4 12:12:03 bastion sshd[43784]: pam_unix(sshd:session): session closed for user park
+Jul  4 12:15:05 db-01 sshd[15974]: Failed password for admin from 203.0.113.45 port 56146 ssh2
+Jul  4 12:16:13 bastion sshd[70959]: Accepted password for admin from 10.0.2.8 port 31546 ssh2
+Jul  4 12:21:37 bastion sshd[47744]: Accepted password for admin from 10.0.1.15 port 33136 ssh2
+Jul  4 12:22:42 web-02 sshd[49667]: Accepted password for admin from 10.0.1.15 port 61151 ssh2
+Jul  4 12:23:30 web-01 sshd[41513]: Accepted password for deploy from 10.0.2.8 port 36635 ssh2
+Jul  4 12:25:39 web-02 sshd[93017]: Failed password for invalid user deploy from 198.51.100.7 port 55408 ssh2
+Jul  4 12:27:29 web-01 sshd[63019]: Accepted password for park from 10.0.1.15 port 57603 ssh2
+Jul  4 12:39:06 db-01 sshd[36647]: Accepted password for admin from 10.0.1.22 port 32793 ssh2
+Jul  4 12:40:18 web-02 sshd[27152]: Accepted password for deploy from 10.0.2.8 port 44363 ssh2
+Jul  4 12:43:03 bastion sshd[7825]: Accepted password for park from 10.0.1.15 port 32934 ssh2
+Jul  4 13:02:04 web-01 sshd[93680]: Failed password for invalid user guest from 203.0.113.45 port 58599 ssh2
+Jul  4 13:05:12 web-01 sshd[17107]: Accepted password for park from 10.0.1.22 port 48504 ssh2
+Jul  4 13:07:46 web-02 sshd[53440]: pam_unix(sshd:session): session closed for user admin
+Jul  4 13:09:12 db-01 sshd[30232]: Accepted password for park from 10.0.2.8 port 39449 ssh2
+Jul  4 13:10:36 web-02 sshd[74545]: Accepted password for deploy from 10.0.1.22 port 39621 ssh2
+Jul  4 13:16:02 db-01 sshd[22045]: Failed password for admin from 10.0.1.15 port 41666 ssh2
+Jul  4 13:17:26 web-02 sshd[77817]: pam_unix(sshd:session): session closed for user admin
+Jul  4 13:18:11 web-02 sshd[61328]: Accepted password for admin from 10.0.1.22 port 64145 ssh2
+Jul  4 13:20:31 web-01 sshd[64025]: Failed password for admin from 192.0.2.99 port 37960 ssh2
+Jul  4 13:28:24 bastion sshd[23743]: Accepted password for deploy from 10.0.1.22 port 61586 ssh2
+Jul  4 13:33:32 db-01 sshd[19082]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 13:36:23 db-01 sshd[6269]: Failed password for invalid user admin from 192.0.2.99 port 42530 ssh2
+Jul  4 13:36:53 web-01 sshd[61618]: Failed password for park from 192.0.2.99 port 60761 ssh2
+Jul  4 13:38:56 db-01 sshd[47983]: Accepted password for park from 10.0.1.22 port 58907 ssh2
+Jul  4 13:39:28 db-01 sshd[12405]: Accepted password for park from 10.0.1.15 port 60133 ssh2
+Jul  4 13:43:27 web-02 sshd[87309]: Failed password for deploy from 203.0.113.45 port 30407 ssh2
+Jul  4 13:44:38 web-01 sshd[1946]: Accepted password for admin from 10.0.2.8 port 39542 ssh2
+Jul  4 13:54:19 web-02 sshd[64818]: Failed password for root from 10.0.1.15 port 58733 ssh2
+Jul  4 13:59:28 bastion sshd[63250]: Failed password for root from 203.0.113.45 port 44173 ssh2
+Jul  4 14:03:11 bastion sshd[31850]: Accepted password for deploy from 10.0.2.8 port 52651 ssh2
+Jul  4 14:04:10 bastion sshd[1247]: Accepted password for park from 10.0.1.15 port 41244 ssh2
+Jul  4 14:11:03 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 14:14:19 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 14:19:21 web-02 sshd[12240]: Accepted password for deploy from 10.0.1.15 port 53230 ssh2
+Jul  4 14:21:04 db-01 sshd[88812]: Failed password for oracle from 203.0.113.45 port 32288 ssh2
+Jul  4 14:26:33 bastion sshd[47807]: Failed password for root from 10.0.1.15 port 62744 ssh2
+Jul  4 14:29:10 db-01 sshd[72771]: Failed password for park from 203.0.113.45 port 53525 ssh2
+Jul  4 14:31:50 bastion sshd[77384]: Accepted password for deploy from 10.0.1.22 port 58964 ssh2
+Jul  4 14:32:01 web-01 sshd[10055]: Accepted password for park from 10.0.1.15 port 40141 ssh2
+Jul  4 14:44:02 bastion sshd[64777]: Accepted password for admin from 10.0.2.8 port 46544 ssh2
+Jul  4 14:46:05 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 14:46:53 web-02 sshd[18785]: Accepted password for admin from 10.0.2.8 port 34724 ssh2
+Jul  4 14:54:53 db-01 sshd[2271]: pam_unix(sshd:session): session closed for user park
+Jul  4 14:59:27 bastion sshd[23536]: Failed password for admin from 203.0.113.45 port 51208 ssh2
+Jul  4 15:03:53 bastion sshd[17311]: pam_unix(sshd:session): session closed for user admin
+Jul  4 15:07:57 db-01 sshd[42375]: Failed password for invalid user oracle from 192.0.2.99 port 33122 ssh2
+Jul  4 15:10:03 db-01 sshd[44827]: Accepted password for deploy from 10.0.2.8 port 33931 ssh2
+Jul  4 15:11:43 web-02 sshd[79738]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 15:13:41 web-01 sshd[62353]: Accepted password for park from 10.0.1.22 port 62857 ssh2
+Jul  4 15:14:43 db-01 sshd[37454]: Failed password for deploy from 10.0.1.15 port 60496 ssh2
+Jul  4 15:16:01 web-02 sshd[60483]: Accepted password for deploy from 10.0.2.8 port 33738 ssh2
+Jul  4 15:25:03 web-02 sshd[39568]: pam_unix(sshd:session): session closed for user admin
+Jul  4 15:28:31 web-01 sshd[22961]: Failed password for admin from 10.0.1.15 port 35458 ssh2
+Jul  4 15:29:26 web-01 sshd[89540]: Failed password for root from 198.51.100.7 port 40583 ssh2
+Jul  4 15:30:25 db-01 sshd[18321]: Failed password for invalid user root from 198.51.100.7 port 61299 ssh2
+Jul  4 15:34:53 bastion sshd[60732]: Failed password for admin from 10.0.1.15 port 46416 ssh2
+Jul  4 15:43:11 web-02 sshd[99140]: Failed password for deploy from 10.0.1.15 port 33045 ssh2
+Jul  4 15:46:04 db-01 sshd[18011]: Failed password for invalid user admin from 198.51.100.7 port 41400 ssh2
+Jul  4 15:47:09 web-01 sshd[33514]: Accepted password for deploy from 10.0.1.22 port 40380 ssh2
+Jul  4 15:50:15 db-01 sshd[92532]: pam_unix(sshd:session): session closed for user park
+Jul  4 15:51:17 db-01 sshd[15896]: Failed password for invalid user park from 198.51.100.7 port 55404 ssh2
+Jul  4 15:53:06 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 15:57:39 web-01 sshd[31344]: Failed password for root from 10.0.1.15 port 60679 ssh2
+Jul  4 15:58:28 db-01 sshd[53139]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 16:15:02 db-01 sshd[85828]: Failed password for root from 10.0.1.15 port 37205 ssh2
+Jul  4 16:24:39 web-01 sshd[99888]: Failed password for guest from 203.0.113.45 port 58997 ssh2
+Jul  4 16:31:14 bastion sshd[9686]: Failed password for deploy from 192.0.2.99 port 53710 ssh2
+Jul  4 16:36:31 db-01 sshd[44600]: Failed password for park from 198.51.100.7 port 33135 ssh2
+Jul  4 16:38:01 db-01 sshd[56570]: Failed password for guest from 192.0.2.99 port 36650 ssh2
+Jul  4 16:38:26 web-01 sshd[31464]: Accepted password for admin from 10.0.1.15 port 57893 ssh2
+Jul  4 16:42:41 db-01 sshd[37025]: Failed password for oracle from 192.0.2.99 port 37002 ssh2
+Jul  4 16:45:20 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 16:47:28 bastion sshd[92263]: Accepted password for admin from 10.0.2.8 port 37013 ssh2
+Jul  4 16:55:32 db-01 sshd[65457]: Failed password for root from 192.0.2.99 port 61501 ssh2
+Jul  4 16:57:26 web-01 sshd[35343]: Accepted password for admin from 10.0.2.8 port 61705 ssh2
+Jul  4 16:58:44 db-01 sshd[59515]: Failed password for invalid user root from 203.0.113.45 port 51376 ssh2
+Jul  4 17:06:18 db-01 sshd[7941]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 17:07:44 web-02 sshd[83751]: pam_unix(sshd:session): session closed for user park
+Jul  4 17:09:43 bastion sshd[23418]: Failed password for invalid user admin from 203.0.113.45 port 62108 ssh2
+Jul  4 17:10:56 web-01 sshd[68202]: Failed password for oracle from 203.0.113.45 port 38874 ssh2
+Jul  4 17:13:40 web-01 sshd[36477]: Accepted password for deploy from 10.0.1.15 port 64014 ssh2
+Jul  4 17:15:48 db-01 sshd[18196]: Accepted password for deploy from 10.0.2.8 port 46575 ssh2
+Jul  4 17:16:10 web-01 sshd[85397]: Failed password for admin from 10.0.1.15 port 56780 ssh2
+Jul  4 17:21:37 db-01 sshd[49196]: pam_unix(sshd:session): session closed for user park
+Jul  4 17:30:43 web-01 sshd[65358]: Failed password for oracle from 203.0.113.45 port 53447 ssh2
+Jul  4 17:33:44 bastion sshd[16876]: Failed password for oracle from 203.0.113.45 port 47110 ssh2
+Jul  4 17:36:01 db-01 sshd[42978]: Accepted password for park from 10.0.2.8 port 36935 ssh2
+Jul  4 17:38:16 bastion sshd[29222]: Failed password for deploy from 10.0.1.15 port 36336 ssh2
+Jul  4 17:39:08 bastion sshd[98440]: Failed password for root from 192.0.2.99 port 46485 ssh2
+Jul  4 17:42:25 db-01 sshd[62948]: Failed password for guest from 198.51.100.7 port 48551 ssh2
+Jul  4 17:43:50 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 17:44:05 bastion sshd[83103]: Failed password for invalid user guest from 10.0.1.15 port 55937 ssh2
+Jul  4 17:47:23 web-02 sshd[25903]: Failed password for guest from 203.0.113.45 port 35359 ssh2
+Jul  4 17:53:44 db-01 sshd[93610]: Failed password for root from 203.0.113.45 port 44285 ssh2
+Jul  4 17:53:59 web-02 sshd[86976]: Accepted password for deploy from 10.0.2.8 port 43929 ssh2
+Jul  4 17:54:00 web-02 sshd[41095]: Accepted password for admin from 10.0.2.8 port 63478 ssh2
+Jul  4 17:59:44 bastion sshd[73059]: Accepted password for park from 10.0.1.15 port 46583 ssh2
+Jul  4 18:02:16 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 18:02:46 web-02 sshd[34054]: Accepted password for admin from 10.0.2.8 port 63599 ssh2
+Jul  4 18:07:44 bastion sshd[45980]: Accepted password for park from 10.0.1.15 port 56179 ssh2
+Jul  4 18:09:05 db-01 sshd[5755]: pam_unix(sshd:session): session closed for user admin
+Jul  4 18:10:04 bastion sshd[12763]: Failed password for guest from 198.51.100.7 port 48209 ssh2
+Jul  4 18:13:30 web-01 sshd[56924]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 18:22:54 bastion sshd[42527]: Failed password for deploy from 192.0.2.99 port 31260 ssh2
+Jul  4 18:23:45 web-01 sshd[62395]: Accepted password for admin from 10.0.1.15 port 44189 ssh2
+Jul  4 18:25:45 db-01 sshd[59796]: Accepted password for park from 10.0.1.22 port 46602 ssh2
+Jul  4 18:30:20 web-01 sshd[70164]: Failed password for park from 10.0.1.15 port 47077 ssh2
+Jul  4 18:30:55 web-01 sshd[58082]: pam_unix(sshd:session): session closed for user admin
+Jul  4 18:36:07 web-02 sshd[37968]: Failed password for invalid user park from 192.0.2.99 port 37813 ssh2
+Jul  4 18:43:06 web-02 sshd[58579]: Accepted password for admin from 10.0.1.22 port 57923 ssh2
+Jul  4 18:46:30 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 18:52:24 db-01 sshd[54430]: Failed password for invalid user park from 192.0.2.99 port 44700 ssh2
+Jul  4 18:56:29 web-01 sshd[50282]: Failed password for deploy from 192.0.2.99 port 41360 ssh2
+Jul  4 18:59:36 web-01 sshd[21581]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 19:00:36 web-02 sshd[52865]: Accepted password for admin from 10.0.2.8 port 32559 ssh2
+Jul  4 19:07:22 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 19:07:56 db-01 sshd[17617]: Failed password for invalid user deploy from 198.51.100.7 port 46140 ssh2
+Jul  4 19:09:43 web-01 sshd[17195]: Failed password for invalid user guest from 192.0.2.99 port 39344 ssh2
+Jul  4 19:22:15 web-01 sshd[67244]: Failed password for invalid user admin from 198.51.100.7 port 63608 ssh2
+Jul  4 19:23:01 web-02 sshd[46225]: Accepted password for deploy from 10.0.1.22 port 40761 ssh2
+Jul  4 19:25:10 web-02 sshd[81416]: Failed password for guest from 10.0.1.15 port 56773 ssh2
+Jul  4 19:26:34 bastion sshd[50751]: Accepted password for deploy from 10.0.1.15 port 38323 ssh2
+Jul  4 19:28:24 db-01 sshd[16161]: Failed password for park from 192.0.2.99 port 58375 ssh2
+Jul  4 19:30:29 web-01 sshd[24904]: Accepted password for park from 10.0.1.15 port 47543 ssh2
+Jul  4 19:33:08 bastion sshd[75763]: Failed password for invalid user deploy from 203.0.113.45 port 48102 ssh2
+Jul  4 19:40:00 db-01 sshd[11361]: Failed password for deploy from 10.0.1.15 port 39160 ssh2
+Jul  4 19:40:22 web-02 sshd[34195]: Accepted password for park from 10.0.2.8 port 33059 ssh2
+Jul  4 19:44:49 bastion sshd[93136]: Failed password for guest from 192.0.2.99 port 33098 ssh2
+Jul  4 19:48:02 web-01 sshd[39602]: Failed password for invalid user park from 10.0.1.15 port 48006 ssh2
+Jul  4 19:53:28 web-02 sshd[93159]: Failed password for invalid user admin from 192.0.2.99 port 34161 ssh2
+Jul  4 19:54:20 db-01 sshd[69962]: Failed password for root from 198.51.100.7 port 45965 ssh2
+Jul  4 20:00:03 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 20:00:08 db-01 sshd[85503]: Failed password for root from 10.0.1.15 port 38444 ssh2
+Jul  4 20:00:29 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 20:01:53 web-01 sshd[2285]: Failed password for guest from 198.51.100.7 port 53796 ssh2
+Jul  4 20:15:06 bastion sshd[42753]: Accepted password for admin from 10.0.1.15 port 30421 ssh2
+Jul  4 20:15:09 web-02 sshd[33693]: Failed password for guest from 203.0.113.45 port 60696 ssh2
+Jul  4 20:16:02 db-01 sshd[8319]: Failed password for deploy from 10.0.1.15 port 30684 ssh2
+Jul  4 20:16:45 web-02 sshd[10463]: Failed password for admin from 198.51.100.7 port 41219 ssh2
+Jul  4 20:18:20 web-01 sshd[15275]: Failed password for deploy from 203.0.113.45 port 53727 ssh2
+Jul  4 20:19:55 db-01 sshd[88681]: Accepted password for admin from 10.0.2.8 port 33196 ssh2
+Jul  4 20:26:53 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 20:28:43 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 20:29:11 web-02 sshd[94810]: Accepted password for deploy from 10.0.1.15 port 48202 ssh2
+Jul  4 20:30:42 db-01 sshd[35590]: Failed password for invalid user oracle from 203.0.113.45 port 46683 ssh2
+Jul  4 20:37:55 web-01 sshd[87645]: Accepted password for park from 10.0.2.8 port 56144 ssh2
+Jul  4 20:43:45 web-01 sshd[93106]: Failed password for oracle from 203.0.113.45 port 40233 ssh2
+Jul  4 20:44:06 db-01 sshd[64965]: Failed password for park from 198.51.100.7 port 47174 ssh2
+Jul  4 20:47:34 web-01 sshd[52948]: Failed password for deploy from 203.0.113.45 port 45913 ssh2
+Jul  4 20:49:45 bastion sshd[33698]: Accepted password for park from 10.0.1.15 port 51265 ssh2
+Jul  4 20:53:24 web-02 sshd[92296]: Accepted password for park from 10.0.1.22 port 57266 ssh2
+Jul  4 20:54:38 web-01 sshd[2148]: Accepted password for park from 10.0.1.15 port 40523 ssh2
+Jul  4 20:59:13 bastion sshd[36313]: Accepted password for park from 10.0.1.22 port 55912 ssh2
+Jul  4 20:59:19 db-01 sshd[52971]: Accepted password for admin from 10.0.1.22 port 47090 ssh2
+Jul  4 21:00:21 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 21:03:51 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 21:04:14 web-01 sshd[24935]: Accepted password for deploy from 10.0.2.8 port 49484 ssh2
+Jul  4 21:09:51 web-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 21:11:19 bastion sshd[64871]: Failed password for park from 10.0.1.15 port 43952 ssh2
+Jul  4 21:11:50 web-01 sshd[99703]: pam_unix(sshd:session): session closed for user admin
+Jul  4 21:15:45 web-01 sshd[78977]: Accepted password for admin from 10.0.2.8 port 47300 ssh2
+Jul  4 21:16:33 web-02 sshd[89174]: Failed password for park from 192.0.2.99 port 58822 ssh2
+Jul  4 21:19:07 web-01 sshd[56750]: Failed password for invalid user root from 192.0.2.99 port 43312 ssh2
+Jul  4 21:21:23 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 21:21:56 web-01 sshd[45652]: Failed password for invalid user oracle from 10.0.1.15 port 55149 ssh2
+Jul  4 21:22:33 web-02 sshd[35049]: Failed password for invalid user guest from 203.0.113.45 port 63039 ssh2
+Jul  4 21:24:51 db-01 sshd[42580]: Accepted password for park from 10.0.1.22 port 58249 ssh2
+Jul  4 21:28:00 db-01 sshd[22745]: Accepted password for deploy from 10.0.1.22 port 44316 ssh2
+Jul  4 21:29:05 bastion sshd[65744]: pam_unix(sshd:session): session closed for user park
+Jul  4 21:42:35 db-01 sshd[55144]: pam_unix(sshd:session): session closed for user admin
+Jul  4 21:44:41 db-01 sshd[8162]: Failed password for invalid user admin from 192.0.2.99 port 39558 ssh2
+Jul  4 21:47:55 web-01 sshd[78860]: Failed password for invalid user root from 198.51.100.7 port 40139 ssh2
+Jul  4 21:53:16 db-01 sshd[18788]: Failed password for admin from 10.0.1.15 port 37897 ssh2
+Jul  4 21:56:03 db-01 sshd[3452]: Failed password for deploy from 10.0.1.15 port 45121 ssh2
+Jul  4 21:56:20 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 21:59:10 web-01 sshd[26814]: Accepted password for admin from 10.0.2.8 port 37589 ssh2
+Jul  4 22:00:01 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 22:03:56 bastion sshd[28223]: pam_unix(sshd:session): session closed for user admin
+Jul  4 22:04:33 web-01 sshd[48149]: Failed password for oracle from 10.0.1.15 port 49985 ssh2
+Jul  4 22:08:48 web-02 sshd[56419]: Failed password for admin from 203.0.113.45 port 32876 ssh2
+Jul  4 22:17:05 web-02 sshd[29676]: Failed password for oracle from 198.51.100.7 port 32773 ssh2
+Jul  4 22:21:01 web-02 sshd[73232]: Failed password for guest from 192.0.2.99 port 44709 ssh2
+Jul  4 22:22:33 web-01 sshd[86926]: Failed password for invalid user park from 198.51.100.7 port 39963 ssh2
+Jul  4 22:25:56 web-01 sshd[31266]: Accepted password for admin from 10.0.2.8 port 54309 ssh2
+Jul  4 22:33:32 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 22:34:39 bastion sshd[12475]: Failed password for invalid user admin from 203.0.113.45 port 32622 ssh2
+Jul  4 22:37:33 db-01 sshd[53042]: Accepted password for park from 10.0.1.15 port 46637 ssh2
+Jul  4 22:47:43 bastion sshd[35486]: Failed password for invalid user oracle from 203.0.113.45 port 42033 ssh2
+Jul  4 22:48:39 bastion sshd[79780]: Accepted password for deploy from 10.0.1.15 port 50548 ssh2
+Jul  4 22:53:31 web-02 sshd[23396]: Failed password for deploy from 203.0.113.45 port 56878 ssh2
+Jul  4 22:54:27 web-01 sshd[83610]: Failed password for invalid user park from 198.51.100.7 port 54049 ssh2
+Jul  4 22:58:42 web-01 sshd[20219]: Accepted password for deploy from 10.0.2.8 port 34798 ssh2
+Jul  4 23:02:43 bastion sshd[96919]: Failed password for invalid user guest from 203.0.113.45 port 40441 ssh2
+Jul  4 23:05:52 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 23:10:01 web-02 sshd[52195]: Accepted password for admin from 10.0.2.8 port 62519 ssh2
+Jul  4 23:16:36 bastion sshd[97049]: Accepted password for park from 10.0.1.15 port 37607 ssh2
+Jul  4 23:19:04 db-01 sshd[44783]: Failed password for admin from 10.0.1.15 port 48065 ssh2
+Jul  4 23:19:35 db-01 sshd[75967]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 23:19:37 bastion sshd[57632]: Failed password for oracle from 203.0.113.45 port 55034 ssh2
+Jul  4 23:30:59 web-02 sshd[60409]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 23:31:56 bastion sshd[82727]: Failed password for admin from 10.0.1.15 port 62846 ssh2
+Jul  4 23:36:06 bastion sshd[67277]: pam_unix(sshd:session): session closed for user deploy
+Jul  4 23:40:10 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 23:43:21 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 23:43:50 db-01 sshd[29103]: Accepted password for deploy from 10.0.1.22 port 34301 ssh2
+Jul  4 23:45:01 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  4 23:53:26 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:03:03 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:04:30 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:04:53 web-01 sshd[83383]: pam_unix(sshd:session): session closed for user admin
+Jul  5 00:06:40 bastion sshd[86768]: Accepted password for admin from 10.0.1.22 port 47165 ssh2
+Jul  5 00:07:21 web-01 sshd[76499]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 00:08:58 bastion sshd[26020]: Failed password for invalid user admin from 198.51.100.7 port 56513 ssh2
+Jul  5 00:10:40 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:18:15 db-01 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:21:22 web-01 sshd[73151]: pam_unix(sshd:session): session closed for user admin
+Jul  5 00:23:47 bastion sshd[82804]: Failed password for deploy from 198.51.100.7 port 49067 ssh2
+Jul  5 00:30:56 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:36:19 web-02 sshd[71001]: Accepted password for deploy from 10.0.1.22 port 37145 ssh2
+Jul  5 00:36:30 bastion sshd[51706]: Failed password for admin from 192.0.2.99 port 46087 ssh2
+Jul  5 00:37:58 db-01 sshd[11956]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 00:42:27 db-01 sshd[97680]: Failed password for invalid user deploy from 10.0.1.15 port 42989 ssh2
+Jul  5 00:42:38 web-01 sshd[54417]: pam_unix(sshd:session): session closed for user admin
+Jul  5 00:43:06 web-01 sshd[26651]: Failed password for invalid user guest from 203.0.113.45 port 57533 ssh2
+Jul  5 00:47:02 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 00:56:57 db-01 sshd[63257]: Failed password for admin from 198.51.100.7 port 54831 ssh2
+Jul  5 01:11:54 db-01 sshd[1307]: Accepted password for park from 10.0.1.22 port 60084 ssh2
+Jul  5 01:30:10 db-01 sshd[52956]: Failed password for invalid user root from 203.0.113.45 port 41850 ssh2
+Jul  5 01:30:28 db-01 sshd[81963]: pam_unix(sshd:session): session closed for user park
+Jul  5 01:31:25 bastion sshd[16601]: Failed password for invalid user oracle from 198.51.100.7 port 41262 ssh2
+Jul  5 01:36:42 web-01 sshd[53843]: Accepted password for deploy from 10.0.2.8 port 48105 ssh2
+Jul  5 01:37:03 db-01 sshd[47257]: Accepted password for park from 10.0.1.22 port 33749 ssh2
+Jul  5 01:40:14 bastion sshd[3628]: Failed password for admin from 192.0.2.99 port 42718 ssh2
+Jul  5 01:42:24 web-02 sshd[47407]: Accepted password for park from 10.0.1.22 port 33765 ssh2
+Jul  5 01:43:21 bastion sshd[16812]: Failed password for invalid user park from 10.0.1.15 port 56391 ssh2
+Jul  5 01:44:20 db-01 sshd[3819]: Failed password for invalid user deploy from 10.0.1.15 port 47223 ssh2
+Jul  5 01:44:59 db-01 sshd[55713]: Accepted password for deploy from 10.0.1.15 port 54487 ssh2
+Jul  5 01:45:03 db-01 sshd[54556]: pam_unix(sshd:session): session closed for user park
+Jul  5 02:03:55 web-01 sshd[99635]: pam_unix(sshd:session): session closed for user admin
+Jul  5 02:04:31 db-01 sshd[79611]: Failed password for guest from 192.0.2.99 port 57582 ssh2
+Jul  5 02:07:34 web-01 sshd[40578]: Accepted password for deploy from 10.0.1.15 port 48742 ssh2
+Jul  5 02:07:59 bastion sshd[78933]: Failed password for invalid user root from 203.0.113.45 port 54490 ssh2
+Jul  5 02:09:08 db-01 sshd[69178]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 02:11:43 bastion sshd[5403]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 02:12:08 bastion sshd[22866]: pam_unix(sshd:session): session closed for user admin
+Jul  5 02:15:36 db-01 sshd[15987]: Failed password for deploy from 203.0.113.45 port 46108 ssh2
+Jul  5 02:24:13 bastion sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 02:26:09 web-02 sshd[47462]: Accepted password for park from 10.0.1.22 port 50882 ssh2
+Jul  5 02:27:34 web-02 sshd[37785]: Failed password for guest from 192.0.2.99 port 45165 ssh2
+Jul  5 02:28:24 db-01 sshd[33977]: Accepted password for admin from 10.0.2.8 port 37114 ssh2
+Jul  5 02:28:35 web-01 sshd[6011]: Failed password for oracle from 192.0.2.99 port 46111 ssh2
+Jul  5 02:35:18 bastion sshd[6118]: pam_unix(sshd:session): session closed for user park
+Jul  5 02:35:56 db-01 sshd[36941]: Accepted password for deploy from 10.0.1.22 port 52456 ssh2
+Jul  5 02:55:52 bastion sshd[11786]: Accepted password for admin from 10.0.1.22 port 44544 ssh2
+Jul  5 02:59:21 db-01 sshd[16453]: Accepted password for admin from 10.0.1.15 port 30522 ssh2
+Jul  5 02:59:27 web-02 sshd[23350]: Failed password for guest from 10.0.1.15 port 63070 ssh2
+Jul  5 03:01:45 web-01 sshd[75254]: Failed password for oracle from 198.51.100.7 port 60762 ssh2
+Jul  5 03:05:59 bastion sshd[48023]: Accepted password for deploy from 10.0.1.22 port 53733 ssh2
+Jul  5 03:06:30 bastion sshd[66581]: Failed password for root from 198.51.100.7 port 47754 ssh2
+Jul  5 03:13:24 bastion sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 03:13:44 db-01 sshd[90846]: Accepted password for park from 10.0.2.8 port 38907 ssh2
+Jul  5 03:25:14 web-01 sshd[82014]: Failed password for invalid user oracle from 203.0.113.45 port 59529 ssh2
+Jul  5 03:25:46 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 03:27:19 db-01 sshd[71961]: Accepted password for deploy from 10.0.1.22 port 32995 ssh2
+Jul  5 03:29:11 web-02 sshd[71664]: Accepted password for admin from 10.0.2.8 port 38300 ssh2
+Jul  5 03:37:26 db-01 sshd[83226]: Failed password for invalid user admin from 198.51.100.7 port 41465 ssh2
+Jul  5 03:46:02 db-01 sshd[90889]: Failed password for admin from 198.51.100.7 port 36208 ssh2
+Jul  5 03:46:50 db-01 sshd[99265]: Failed password for guest from 198.51.100.7 port 63875 ssh2
+Jul  5 03:47:39 bastion sshd[44798]: pam_unix(sshd:session): session closed for user park
+Jul  5 03:56:19 web-01 sshd[10502]: Failed password for admin from 198.51.100.7 port 35573 ssh2
+Jul  5 03:56:33 bastion sshd[97494]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 03:59:18 db-01 sshd[10305]: Accepted password for park from 10.0.2.8 port 58975 ssh2
+Jul  5 04:03:00 bastion sshd[35555]: Accepted password for admin from 10.0.1.22 port 50800 ssh2
+Jul  5 04:09:56 web-01 sshd[80128]: Failed password for invalid user oracle from 203.0.113.45 port 53176 ssh2
+Jul  5 04:12:03 web-02 sshd[24014]: Accepted password for park from 10.0.2.8 port 36743 ssh2
+Jul  5 04:12:16 web-01 sshd[6502]: Accepted password for park from 10.0.2.8 port 62108 ssh2
+Jul  5 04:13:35 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 04:15:02 web-02 sshd[29932]: Failed password for park from 198.51.100.7 port 51535 ssh2
+Jul  5 04:19:53 web-02 sshd[60466]: Accepted password for admin from 10.0.1.22 port 30183 ssh2
+Jul  5 04:23:13 web-02 sshd[18463]: Failed password for root from 10.0.1.15 port 30964 ssh2
+Jul  5 04:27:10 web-02 sshd[63576]: Accepted password for admin from 10.0.1.22 port 61901 ssh2
+Jul  5 04:29:28 bastion sshd[43249]: Failed password for invalid user deploy from 192.0.2.99 port 63631 ssh2
+Jul  5 04:31:00 db-01 sshd[47114]: Failed password for guest from 10.0.1.15 port 57668 ssh2
+Jul  5 04:32:30 bastion sshd[56580]: Failed password for park from 203.0.113.45 port 58680 ssh2
+Jul  5 04:51:06 db-01 sshd[12354]: pam_unix(sshd:session): session closed for user park
+Jul  5 04:51:14 db-01 sshd[21506]: Failed password for oracle from 192.0.2.99 port 35480 ssh2
+Jul  5 04:51:51 web-02 sshd[67570]: Accepted password for deploy from 10.0.1.15 port 47339 ssh2
+Jul  5 05:00:06 web-02 sshd[74132]: Failed password for root from 192.0.2.99 port 39021 ssh2
+Jul  5 05:00:09 web-02 sshd[88900]: Failed password for guest from 192.0.2.99 port 43395 ssh2
+Jul  5 05:08:41 web-02 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 05:10:22 web-02 sshd[97424]: Accepted password for park from 10.0.1.22 port 51919 ssh2
+Jul  5 05:10:42 db-01 sshd[89977]: Failed password for root from 10.0.1.15 port 34200 ssh2
+Jul  5 05:12:24 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 05:15:52 db-01 sshd[21528]: Failed password for park from 203.0.113.45 port 61621 ssh2
+Jul  5 05:17:32 web-01 sshd[94740]: Failed password for admin from 192.0.2.99 port 42088 ssh2
+Jul  5 05:18:37 db-01 sshd[69102]: Accepted password for park from 10.0.1.22 port 59092 ssh2
+Jul  5 05:24:33 db-01 sshd[71946]: pam_unix(sshd:session): session closed for user park
+Jul  5 05:37:22 web-02 sshd[72034]: pam_unix(sshd:session): session closed for user deploy
+Jul  5 05:38:24 bastion sshd[96200]: Failed password for admin from 203.0.113.45 port 46046 ssh2
+Jul  5 05:39:07 db-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 05:40:20 web-01 sshd[36094]: Failed password for invalid user oracle from 203.0.113.45 port 32029 ssh2
+Jul  5 05:44:06 web-01 sshd[14745]: Failed password for oracle from 198.51.100.7 port 30537 ssh2
+Jul  5 05:44:44 web-02 sudo: park : TTY=pts/0 ; PWD=/home/park ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 05:46:22 bastion sshd[67848]: Accepted password for admin from 10.0.1.22 port 44335 ssh2
+Jul  5 05:46:31 db-01 sshd[95481]: Accepted password for park from 10.0.1.15 port 38022 ssh2
+Jul  5 05:52:16 db-01 sshd[25494]: Failed password for admin from 10.0.1.15 port 36770 ssh2
+Jul  5 06:03:34 web-02 sshd[54982]: Accepted password for park from 10.0.1.22 port 63558 ssh2
+Jul  5 06:04:54 web-01 sshd[92254]: Failed password for invalid user root from 198.51.100.7 port 42119 ssh2
+Jul  5 06:05:46 db-01 sshd[25543]: Failed password for root from 10.0.1.15 port 43588 ssh2
+Jul  5 06:10:57 web-01 sshd[38785]: Accepted password for deploy from 10.0.2.8 port 49300 ssh2
+Jul  5 06:17:27 web-02 sshd[56084]: Accepted password for park from 10.0.1.15 port 41870 ssh2
+Jul  5 06:22:15 web-02 sshd[75637]: Failed password for admin from 198.51.100.7 port 42683 ssh2
+Jul  5 06:22:44 web-02 sshd[56979]: Accepted password for admin from 10.0.2.8 port 47200 ssh2
+Jul  5 06:28:53 bastion sshd[38799]: Accepted password for deploy from 10.0.1.22 port 33706 ssh2
+Jul  5 06:29:12 web-02 sshd[97514]: Accepted password for park from 10.0.1.22 port 46547 ssh2
+Jul  5 06:31:36 web-02 sshd[57187]: Failed password for deploy from 10.0.1.15 port 41482 ssh2
+Jul  5 06:40:35 bastion sshd[49283]: Failed password for invalid user park from 198.51.100.7 port 61255 ssh2
+Jul  5 06:42:43 web-02 sshd[42243]: Failed password for oracle from 192.0.2.99 port 50306 ssh2
+Jul  5 06:46:57 web-01 sshd[40739]: Failed password for park from 198.51.100.7 port 37947 ssh2
+Jul  5 06:57:54 web-02 sshd[35744]: Failed password for invalid user root from 198.51.100.7 port 60539 ssh2
+Jul  5 07:00:01 web-02 sshd[61679]: Accepted password for park from 10.0.1.22 port 54599 ssh2
+Jul  5 07:04:31 web-02 sshd[12946]: Failed password for invalid user oracle from 10.0.1.15 port 36995 ssh2
+Jul  5 07:05:41 web-02 sshd[20989]: Accepted password for deploy from 10.0.2.8 port 61837 ssh2
+Jul  5 07:11:27 bastion sshd[21871]: Accepted password for deploy from 10.0.1.15 port 37234 ssh2
+Jul  5 07:32:21 db-01 sshd[54840]: Failed password for deploy from 192.0.2.99 port 34407 ssh2
+Jul  5 07:45:33 web-02 sshd[81467]: pam_unix(sshd:session): session closed for user park
+Jul  5 07:47:32 web-02 sshd[10233]: Failed password for oracle from 192.0.2.99 port 60425 ssh2
+Jul  5 07:49:25 web-02 sshd[17771]: Failed password for oracle from 10.0.1.15 port 57146 ssh2
+Jul  5 07:51:06 web-01 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  5 08:03:25 db-01 sshd[26414]: Accepted password for deploy from 10.0.1.15 port 44118 ssh2
+Jul  5 08:06:47 bastion sshd[79609]: Accepted password for admin from 10.0.1.22 port 30849 ssh2
