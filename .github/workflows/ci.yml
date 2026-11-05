@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: 단위 테스트
+        run: python -m unittest discover -s tests -v
+
+      - name: 파이프라인 스모크 테스트 (생성 → 파싱 → 적재 → 리포트)
+        run: |
+          LOGS="$RUNNER_TEMP/logs"
+          (cd collector && python generate_sample_logs.py --lines 300 --outdir "$LOGS")
+          (cd parser && python parser.py "$LOGS/auth.log" "$LOGS/firewall.log")
+          (cd parser && python load.py "$LOGS/auth.log" "$LOGS/firewall.log")
+          (cd report && python report.py | tee "$RUNNER_TEMP/report.txt")
+          # 생성기가 심은 공격 IP가 Q3(실패 후 로그인 성공)에 잡혀야 한다
+          grep -A4 "\[Q3\]" "$RUNNER_TEMP/report.txt" | grep -q "203.0.113.45"
