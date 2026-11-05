@@ -1,0 +1,7 @@
+# 파이썬 실행 부산물
+__pycache__/
+*.pyc
+
+# 실행할 때마다 load.py가 새로 만드는 DB와 리포트 출력
+db/pipeline.db
+daily_report.txt
