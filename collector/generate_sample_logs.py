@@ -64,7 +64,7 @@ def gen_firewall_line(ts: datetime) -> str:
             f"SPT={random.randint(1024, 65000)} DPT={random.choice(PORTS)}")
 
 
-def gen_attack_scenario(base: datetime) -> list[str]:
+def gen_attack_scenario(base: datetime) -> list[tuple[datetime, str]]:
     """확정적 공격 시나리오 주입.
 
     무작위 로그만으로는 Q2b(시간 창)·Q3(실패 후 성공)가 우연에 의존한다.
@@ -82,24 +82,38 @@ def gen_attack_scenario(base: datetime) -> list[str]:
         ts = start + timedelta(seconds=i * 12)  # 12초 간격 → 4분 안에 20회
         stamp = ts.strftime("%b %e %H:%M:%S")
         pid = 40000 + i
-        lines.append(
+        lines.append((ts,
             f"{stamp} {target_host} sshd[{pid}]: Failed password for admin "
-            f"from {attacker} port {50000 + i} ssh2")
+            f"from {attacker} port {50000 + i} ssh2"))
 
     # 2) 곧이어 같은 IP가 admin으로 로그인 성공 (계정 탈취 = Q3가 잡아야 할 것)
     ts = start + timedelta(minutes=5)
     stamp = ts.strftime("%b %e %H:%M:%S")
-    lines.append(
+    lines.append((ts,
         f"{stamp} {target_host} sshd[40099]: Accepted password for admin "
-        f"from {attacker} port 50099 ssh2")
+        f"from {attacker} port 50099 ssh2"))
 
     # 3) 성공 직후 sudo로 권한 상승 시도 (침해 후 행위)
     ts = start + timedelta(minutes=5, seconds=30)
     stamp = ts.strftime("%b %e %H:%M:%S")
-    lines.append(
+    lines.append((ts,
         f"{stamp} {target_host} sudo: admin : TTY=pts/0 ; PWD=/home/admin ; "
-        f"USER=root ; COMMAND=/bin/bash")
+        f"USER=root ; COMMAND=/bin/bash"))
     return lines
+
+
+def render_auth_log(base: datetime, n_lines: int) -> list[str]:
+    """배경 로그 + 공격 시나리오를 시각순으로 정렬해 auth.log 줄 목록으로 반환.
+
+    syslog 타임스탬프 문자열("Nov  1 ...")로 정렬하면 월 이름이 알파벳순으로
+    비교돼 월이 바뀌는 구간에서 순서가 뒤집힌다("Nov" < "Oct").
+    그래서 문자열이 아니라 datetime 기준으로 정렬한다.
+    """
+    pairs = [(ts, gen_auth_line(ts))
+             for ts in (rand_time(base) for _ in range(n_lines))]
+    pairs += gen_attack_scenario(base)
+    pairs.sort(key=lambda pair: pair[0])
+    return [line for _, line in pairs]
 
 
 def main() -> None:
@@ -112,15 +126,9 @@ def main() -> None:
     outdir.mkdir(parents=True, exist_ok=True)
     base = datetime.now()
 
-    auth_lines = sorted(
-        (rand_time(base) for _ in range(args.lines)))
     with open(outdir / "auth.log", "w", encoding="utf-8") as f:
-        # 무작위 배경 로그
-        rendered = [gen_auth_line(ts) for ts in auth_lines]
-        # 확정적 공격 시나리오 주입 후 시각순 정렬
-        rendered += gen_attack_scenario(base)
-        rendered.sort(key=lambda ln: (ln[:15]))  # syslog 타임스탬프 문자열 기준
-        for line in rendered:
+        # 무작위 배경 로그 + 확정적 공격 시나리오, 시각순 정렬
+        for line in render_auth_log(base, args.lines):
             f.write(line + "\n")
 
     fw_lines = sorted(
