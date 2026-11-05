@@ -51,6 +51,12 @@ def render_table(headers, rows, max_width=30) -> str:
 
 
 def main() -> None:
+    # sqlite3.connect는 파일이 없으면 빈 DB를 새로 만들어 버려서
+    # "no such table" 오류가 난다. 원인을 바로 알 수 있게 먼저 확인한다.
+    if not DB_PATH.exists():
+        raise SystemExit(f"DB가 없습니다: {DB_PATH}\n"
+                         "먼저 parser/load.py로 로그를 적재하세요.")
+
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
 
